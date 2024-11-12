@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/a1dcff10ff.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body onload="isAuth()">
+    <div class="login-page">
+        <div class="login-container" style="background-image: url('../images/1860x1050-biarticulados-brt.jpg');">
+            <div class="login-card">
+                <form id="login">
+                    <span class="login-logo">
+                        <img src="../images/logo2.png" alt="logo" width="50%">
+                    </span>
+                    <span class="login-form-title" style="margin: 30px 0;"> login </span>
+    
+                    <div class="form-group">
+                        <input id="email" class="input" name="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
+
+                    <div class="login-btn-container">
+                        <button type="button" class="btn-secondary" onclick="login()"> Acessar </button>
+                    </div>
+
+
+                </form>
+                    
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
